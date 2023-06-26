@@ -42,6 +42,11 @@ app.get('/random.js', (req, res) => {
 app.get('/URL_Shortner/node_modules/fs', (req, res) => {
   res.sendFile(__dirname + '../URL_Shortner/fs');
 })
+Urls, Shorten Urls and notes can be searched with helpmof any of them to search by Url or Shorten Url can hit search url on homepage after adding url or shorten url in first text box or same can be done with notes by adding it to second box.
+# CODE LOGIC:
+Firstly a server is created with of help of express js.<br>
+Then two inputes are taken from users as url and notes for shortening url and save to json file if already not present and provide with shorten url which on result can send a get request to server which as response redirect to base url.
+While searching of any shorten url one can search json database by url or shorten url itself or notes associated with url which on result provide all data associated with it along with shorten url which also on hit send g
 for (let i = 0; i < Object.keys(data.urls).length; i++) {
   let short = data.urls[i].shorter;
   app.get('/' + short, (req, res) => {
@@ -51,7 +56,7 @@ for (let i = 0; i < Object.keys(data.urls).length; i++) {
 }
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Project listening on port ${port}`)
 })
 
 
