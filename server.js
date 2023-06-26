@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-var data = require('../URL_Shortner/data.json');
+var data = require('./data.json');
 const path = require('path');
 const fs = require('fs');
 const port = 3000
