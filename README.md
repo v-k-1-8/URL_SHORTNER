@@ -1,5 +1,5 @@
-# URL_SHORTNER_ACM
-This is URL SHORTNER created by Lakhyani Varun, student at IIT ROORKEE, as an open project of ACM IIT ROORKEE.<br>
+# URL_SHORTNER
+This is URL SHORTNER created by Lakhyani Varun, student at IIT ROORKEE<br>
 Project working video is also provided as name 'urlShortnerDemo.mp4'
 # HOW TO START THE PROJECT AFTER CLONNING:
 Node, npm , Express are expected to be set up for this project.<br>
@@ -15,5 +15,5 @@ Urls, Shorten Urls and notes can be searched with helpmof any of them to search 
 Firstly a server is created with of help of express js.<br>
 Then two inputes are taken from users as url and notes for shortening url and save to json file if already not present and provide with shorten url which on result can send a get request to server which as response redirect to base url.
 While searching of any shorten url one can search json database by url or shorten url itself or notes associated with url which on result provide all data associated with it along with shorten url which also on hit send get request to server which as reponse redirect to base url.
-# That's all for URL_SHORTNER_ACM
+# That's all for URL_SHORTNER
 
